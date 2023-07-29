@@ -1,0 +1,66 @@
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#content {
+    margin-left: 25px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+}
+
+
+#bio {
+display: flex;
+justify-content: flex-start;
+}
+
+#bio-btn {
+    margin-right: 10px;
+}
+
+#bio-content{
+    margin-left: 40px;
+}
+
+
+#proyectos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.contact {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.contact ul li {
+    margin: 10px 0;
+}
+
+.contact ul li a {
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+  
+.contact ul li a:hover {
+    color: #aaa;
+    text-decoration: underline;
+}
